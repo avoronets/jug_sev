@@ -1,0 +1,7 @@
+@(suggestions : Array[String])
+<div class="suggestions">
+    <h2>Who to follow</h2>
+    @for(suggestion <- suggestions){
+        <p>@suggestion</p>
+    }
+</div>
